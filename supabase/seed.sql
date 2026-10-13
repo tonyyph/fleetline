@@ -1,0 +1,1 @@
+-- No seed data: players and matches are created by the app.

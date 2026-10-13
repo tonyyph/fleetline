@@ -41,3 +41,11 @@ example
 # generated native folders
 /ios
 /android
+
+# env (only .env.example is committed)
+.env
+.env.*
+!.env.example
+
+# AI source art (large); processed copies live in assets/art. Re-run `pnpm art` after changes.
+/assets/art-src/
